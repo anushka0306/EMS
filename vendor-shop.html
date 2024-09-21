@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="shopPageTitle">Vendor Shop</title>
+    <link rel="stylesheet" href="vendor-shop.css">
+</head>
+<body>
+    <header>
+        <h1 id="shopTitle">Shop - [Vendor Name]</h1>
+
+        <button onclick="goback()">Back</button>
+        <button onclick="goHome()">Home</button>
+        <nav>
+            <button onclick="goHome()">Home</button>
+            <button onclick="viewcart()">View Cart</button>
+            <button onclick="logout()">Logout</button>
+        </nav>
+    </header>
+
+    <div class="product-container" id="productContainer">
+        <!-- Products will be dynamically added here -->
+    </div>
+
+    <script src="vendor-shop.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Sign-Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <header>
+        <h1>Admin Sign-Up</h1>
+
+        
+        <button onclick="goHome()">Home</button>
+    </header>
+
+    <div class="signup-form">
+        <form id="adminSignupForm">
+            <input type="text" id="adminName" placeholder="Name" required>
+            <input type="email" id="adminEmail" placeholder="Email" required>
+            <input type="password" id="adminPassword" placeholder="Password" required>
+            
+            <label for="category">Category:</label>
+            <select id="category" required>
+                <option value="">Select Category</option>
+                <option value="Catering">Catering</option>
+                <option value="Florist">Florist</option>
+                <option value="Decoration">Decoration</option>
+                <option value="Lighting">Lighting</option>
+            </select>
+            
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

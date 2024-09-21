@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="user-dashboard.css">
+</head>
+<body>
+    <header>
+        <h1>User Dashboard</h1>
+
+        <button onclick="goHome()">Home</button>
+    </header>
+
+    <div class="user-dashboard">
+        <!-- Vendor Dropdown -->
+        <div class="option">
+            <button id="vendorButton">Vendors</button>
+            <div id="vendorDropdown" class="dropdown-content">
+                <a href="#" data-category="Catering">Catering</a>
+                <a href="#" data-category="Decoration">Decoration</a>
+                <a href="#" data-category="Lighting">Lighting</a>
+                <a href="#" data-category="Florist">Florist</a>
+            </div>
+        </div>
+
+        <!-- Other Options (Cart, Guest List, Order Status, Logout) -->
+        <div class="option">
+            <button onclick="cart()">Cart</button>
+        </div>
+
+        <div class="option">
+            <button onclick="redirectToPage('guest-list')">Guest List</button>
+        </div>
+
+        <div class="option">
+            <button onclick="orderstatus()">Order Status</button>
+        </div>
+
+        <div class="option">
+            <button onclick="logout()">Logout</button>
+        </div>
+    </div>
+
+    <script src="user-dashboard.js"></script>
+</body>
+</html>

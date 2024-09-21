@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d9dadb;
+    text-align: center;
+}
+
+.navbar {
+    margin-top: 20px;
+}
+
+.navbar button {
+    background-color: white;
+    border: 1px solid green;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+h2 {
+    margin: 20px;
+    background-color: lightblue;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.cart-table {
+    margin: 20px auto;
+    width: 80%;
+    background-color: #c3c5c6;
+}
+
+.cart-table .row {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+.cart-table .header {
+    background-color: #4d89d9;
+    color: white;
+}
+
+.cart-table img {
+    width: 50px;
+    height: 50px;
+}
+
+.total-section {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-section div {
+    margin: 0 15px;
+    padding: 10px;
+    background-color: #4d89d9;
+    color: white;
+}
+
+.total-section button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.checkout {
+    background-color: lightgreen;
+    padding: 10px 20px;
+    cursor: pointer;
+}

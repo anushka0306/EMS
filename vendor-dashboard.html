@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendor Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Vendor Dashboard - Manage Services</h1>
+
+        <button onclick="goback()">Back</button>
+        <button onclick="goHome()">Home</button>
+    </header>
+
+    <div class="vendor-dashboard">
+        <h2>Add New Service</h2>
+        <form id="addServiceForm">
+            <input type="text" id="serviceName" placeholder="Service Name" required>
+            <input type="number" id="servicePrice" placeholder="Service Price" required>
+            <button type="submit">Add Service</button>
+        </form>
+
+        <h2>Your Services</h2>
+        <div id="servicesContainer" class="services-container">
+            <!-- Services will be displayed here -->
+        </div>
+    </div>
+
+  
+
+    <script src="vendor-dashboard.js"></script>
+</body>
+</html>
